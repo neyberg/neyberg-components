@@ -30,7 +30,7 @@
 
         $cmb->add_field( array(
             'type' => 'banner',
-            'url' => get_theme_file_uri() . '/images/admin/layout-accordion.png',
+            'url' => plugin_dir_url( __FILE__ ) . '/images/layout-accordion.png',
             'id'   => $prefix . 'accordion_info_banner',
         ) );
 
@@ -105,7 +105,7 @@
 
         $cmb->add_field( array(
             'type' => 'banner',
-            'url' => get_theme_file_uri() . '/images/admin/layout-sequence.png',
+            'url' => plugin_dir_url( __FILE__ ) . '/images/layout-sequence.png',
             'id'   => $prefix . 'sequences_info_banner',
         ) );
 
@@ -214,7 +214,7 @@
 
         $cmb->add_field( array(
             'type' => 'banner',
-            'url' => get_theme_file_uri() . '/images/admin/layout-image-grid.png',
+            'url' => plugin_dir_url( __FILE__ ) . '/images/layout-image-grid.png',
             'id'   => $prefix . 'image_grid_info_banner',
         ) );
 
@@ -273,7 +273,7 @@
 
         $cmb->add_field( array(
             'type' => 'banner',
-            'url' => get_theme_file_uri() . '/images/admin/layout-tabs.png',
+            'url' => plugin_dir_url( __FILE__ ) . '/images/layout-tabs.png',
             'id'   => $prefix . 'accordion_info_banner',
         ) );
 
